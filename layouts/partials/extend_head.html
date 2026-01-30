@@ -1,0 +1,5 @@
+{{- /* Explicitly load custom CSS */ -}}
+{{- $custom := resources.Get "css/extended/custom.css" -}}
+{{- if $custom -}}
+<link rel="stylesheet" href="{{ $custom.RelPermalink }}">
+{{- end -}}
