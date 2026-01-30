@@ -80,7 +80,7 @@ params:
       - name: About
         url: about/
       - name: Contact
-        url: "mailto:suraj2003.work@gmail.com"
+        url: contact/
 
 
   homeInfoParams:
