@@ -10,8 +10,6 @@ description: "Software Engineer with experience in Full Stack Development and Da
 
 [suraj2003.work@gmail.com](mailto:suraj2003.work@gmail.com) | [LinkedIn](https://www.linkedin.com/in/suraj-s-5bbb6b269/) | [GitHub](https://github.com/mochiron-desu)
 
-Sector - 2/19 B, Reliance Greens, Motikhavdi, Jamnagar, Gujarat
-
 ---
 
 ## 💼 Work Experience
@@ -73,5 +71,3 @@ tals.
 **Certifications & Courses:** AWS Academy Cloud Foundations; MongoDB Basics; Google Cloud Essentials; Intro to Front-End Development
 
 **Languages:** English, Hindi, Malayalam, Japanese (beginner)
-
-If you'd like any detail changed or prefer a different ordering, tell me and I'll update it.
