@@ -1,6 +1,5 @@
 ---
 title: "Contact"
-layout: "archives"
 url: "/contact"
 summary: "contact"
 ---
