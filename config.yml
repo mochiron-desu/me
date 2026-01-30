@@ -30,17 +30,11 @@ languages:
       series: series
     menu:
       main:
-        - name: Posts
-          url: posts
+        - name: Portfolio
+          url: portfolio/
           weight: 5
-        - name: Search
-          url: search/
-          weight: 10
-        - name: Categories
-          url: categories/
-          weight: 10
-        - name: Tags
-          url: tags/
+        - name: About
+          url: about/
           weight: 10
 
 outputs:
@@ -76,7 +70,7 @@ params:
     enabled: true
     title: "Suraj S"
     subtitle: "Software Engineer"
-    imageUrl: /images/profile.svg
+    imageUrl: "https://avatars.githubusercontent.com/u/77109968?v=4" # Assuming github avatar or use local
     imageWidth: 140
     imageHeight: 140
     imageTitle: Profile
@@ -85,6 +79,8 @@ params:
         url: portfolio/
       - name: About
         url: about/
+      - name: Contact
+        url: "mailto:suraj2003.work@gmail.com"
 
 
   homeInfoParams:

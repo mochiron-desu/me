@@ -1,12 +1,8 @@
 ---
 title: "Portfolio"
+layout: "list"
+description: "A collection of my projects and experiments."
 ---
 
-Below are some projects. Replace these placeholders with your real project entries (title, short description, link).
+Welcome to my portfolio. Here are some of the projects I've worked on.
 
-Below are a few projects and experiments. Click any project for details.
-
-- [Lo-Fi Music Generation using LSTM](/portfolio/lofi-lstm/)
-- [Quiz Master](/portfolio/quiz-master/)
-
-You can add more project pages under `content/portfolio/<project-slug>/index.md`.
