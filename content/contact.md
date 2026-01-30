@@ -44,7 +44,7 @@ summary: "contact"
     background: var(--entry); 
     color: var(--primary);
   }
-  button {
+  /* button {
     padding: 0.75rem 1.5rem;
     background-color: var(--primary);
     color: var(--theme);
@@ -52,7 +52,7 @@ summary: "contact"
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
-  }
+  } */
   button:hover {
     opacity: 0.9;
   }
