@@ -1,6 +1,5 @@
 ---
 title: "Thank You"
-layout: "archives"
 url: "/contact/success"
 summary: "success"
 hidemeta: true
