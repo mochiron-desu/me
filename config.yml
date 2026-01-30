@@ -1,7 +1,7 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 baseURL: "https://surajhere.netlify.app/"
-title: "Suraj S — Portfolio"
+title: "Suraj S"
 copyright: "© Suraj S"
 pagination:
   pagerSize: 5
@@ -70,7 +70,7 @@ params:
     enabled: true
     title: "Suraj S"
     subtitle: "Software Engineer"
-    imageUrl: "https://avatars.githubusercontent.com/u/77109968?v=4" # Assuming github avatar or use local
+    imageUrl: "https://avatars.githubusercontent.com/u/72451747?v=4" # Assuming github avatar or use local
     imageWidth: 140
     imageHeight: 140
     imageTitle: Profile
