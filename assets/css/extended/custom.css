@@ -1,0 +1,109 @@
+/* Custom CSS for Enhanced Design */
+
+/* Import Google Font 'Outfit' */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --font-family: 'Outfit', sans-serif;
+    --radius-lg: 12px;
+    --radius-md: 8px;
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+body {
+    font-family: var(--font-family) !important;
+}
+
+/* Glassmorphism for Header */
+.nav {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgba(var(--theme), 0.8) !important;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Enhanced Post Entry Styling */
+.entry-content {
+    color: var(--secondary);
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.post-entry {
+    background: var(--entry);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid transparent;
+}
+
+.post-entry:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--border);
+}
+
+/* Typography Enhancements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family) !important;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.post-title {
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+
+/* Button & Link Enhancements */
+.button, .entry-link, .page-link {
+    border-radius: var(--radius-md);
+    transition: all 0.2s ease;
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--theme);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--tertiary);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary);
+}
+
+/* Code Block Enhancements */
+.highlight {
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    margin: 1.5rem 0;
+}
+
+/* Image Enhancements */
+img {
+    border-radius: var(--radius-lg);
+}
+
+/* Profile Mode enhancements */
+.profile_inner img {
+    box-shadow: var(--shadow-lg);
+    transition: transform 0.3s ease;
+}
+
+.profile_inner img:hover {
+    transform: scale(1.05);
+}
